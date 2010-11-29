@@ -2,13 +2,16 @@
 <html>
 <head>
   <title>DemoApp</title>
+  <%= stylesheet_link_tag "ownstyle" %>
   <%= stylesheet_link_tag :all %>
   <%= javascript_include_tag :defaults %>
   <%= csrf_meta_tag %>
 </head>
 <body>
 
+<div id="temp">
 <%= yield %>
+</div>
 
 </body>
 </html>
