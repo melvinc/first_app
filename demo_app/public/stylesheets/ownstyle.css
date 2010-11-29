@@ -1,0 +1,33 @@
+h1 {
+
+}
+
+body { background-color: #fff; color: white; }
+
+body, p, ol, ul, td {
+  font-family: arial, helvetica, sans-serif;
+  font-size:   15px;
+  line-height: 20px;
+}
+
+table {
+border: 2px solid grey;
+}
+
+table td, th{
+border: 2px solid grey;
+}
+
+a { color: #33; }
+a:visited { color: #819; }
+a:hover { color: red;}
+
+#temp {
+width:25%;
+height:25%;
+margin-left:25%;
+padding:10%;
+background-color: #999;
+}
+
+
